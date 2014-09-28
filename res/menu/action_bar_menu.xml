@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/img_search"
+        android:showAsAction="always"
+        android:title="@string/action_search"
+        android:actionViewClass="android.widget.SearchView"
+       />
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/img_setting"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/action_settings"/>
+
+</menu>

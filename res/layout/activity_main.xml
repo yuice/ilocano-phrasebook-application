@@ -1,0 +1,171 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fffff3"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:scrollbars="none"
+    tools:context="edu.ucuccs.ilocanophrasebook.MainActivity" >
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1" >
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/txtGreetings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:drawableTop="@drawable/img_greetings"
+                android:gravity="center"
+                android:onClick="clickGreetings"
+                android:padding="20dip"
+                android:text="Greetings"
+                android:textColor="#735321" />
+
+            <TextView
+                android:id="@+id/txtWeather"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:clickable="true"
+                android:drawableTop="@drawable/img_weather"
+                android:gravity="center"
+                android:onClick="clickWeather"
+                android:padding="20dip"
+                android:text="Weather"
+                android:textColor="#735321" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/txtPlaces"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:clickable="true"
+                android:drawableTop="@drawable/img_places"
+                android:gravity="center"
+                android:onClick="clickPlaces"
+                android:padding="20dip"
+                android:text="Places"
+                android:textColor="#735321" />
+
+            <TextView
+                android:id="@+id/txtDirections"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:drawableTop="@drawable/img_directions"
+                android:gravity="center"
+                android:onClick="clickDirections"
+                android:text="Directions"
+                android:textColor="#735321" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/txtColors"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:clickable="true"
+                android:drawableTop="@drawable/img_color"
+                android:gravity="center"
+                android:onClick="clickColors"
+                android:padding="20dip"
+                android:text="Colors"
+                android:textColor="#735321" />
+
+            <TextView
+                android:id="@+id/txtNumbers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:drawableTop="@drawable/img_numbers"
+                android:gravity="center"
+                android:onClick="clickNumbers"
+                android:text="Numbers"
+                android:textColor="#735321" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/txtHobbies"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:clickable="true"
+                android:drawableTop="@drawable/img_hobbies"
+                android:gravity="center"
+                android:onClick="clickHobbies"
+                android:padding="20dip"
+                android:text="Hobbies"
+                android:textColor="#735321" />
+
+            <TextView
+                android:id="@+id/txtEmergency"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:drawableTop="@drawable/img_emergency"
+                android:gravity="center"
+                android:onClick="clickEmergency"
+                android:text="Emergency"
+                android:textColor="#735321" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/txtRelatives"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:clickable="true"
+                android:drawableTop="@drawable/img_realatives"
+                android:gravity="center"
+                android:onClick="clickRelatives"
+                android:padding="20dip"
+                android:text="Relatives"
+                android:textColor="#735321" />
+
+            <TextView
+                android:id="@+id/txtOccupation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:drawableTop="@drawable/img_occupations"
+                android:gravity="center"
+                android:onClick="clickOccupation"
+                android:text="Occupation"
+                android:textColor="#735321" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/txtFavorites"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:clickable="true"
+                android:drawableTop="@drawable/img_favorites"
+                android:gravity="center"
+                android:onClick="clickFavorites"
+                android:padding="20dip"
+                android:text="Favorites"
+                android:textColor="#735321" />
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>

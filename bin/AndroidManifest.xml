@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.ucuccs.ilocanophrasebook"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name=".FavoritesActivity"
+            android:label="@string/title_activity_favorites"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".GreetingsActivity"
+            android:label="@string/title_activity_greetings"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".PlacesActivity"
+            android:label="@string/title_activity_places"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".DirectionsActivity"
+            android:label="@string/title_activity_directions"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".ColorsActivity"
+            android:label="@string/title_activity_colors"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".NumbersActivity"
+            android:label="@string/title_activity_numbers"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".HobbiesActivity"
+            android:label="@string/title_activity_hobbies"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".EmergencyActivity"
+            android:label="@string/title_activity_emergency"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".RelativesActivity"
+            android:label="@string/title_activity_relatives"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".OccupationActivity"
+            android:label="@string/title_activity_occupation"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".WeatherActivity"
+            android:label="@string/title_activity_weather"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".SearchActivity"
+            android:label="@string/title_activity_search"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name="Preference"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+    </application>
+
+</manifest>
